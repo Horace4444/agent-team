@@ -52,6 +52,19 @@ Bleeding-edge database architect for AI-era hybrid architectures combining SQL, 
 #### 💰 **financial-analyst-agent**
 Strategic financial analyst with expertise in business models, SaaS metrics, fundraising, and competitive analysis.
 
+### Data Science & AI Agents
+
+#### 📊 **python-data-scientist**
+PhD-level data science expertise for statistical analysis, mathematical computation, and quantitative research across all domains including finance, industrial applications, and network science.
+
+#### 🤖 **python-ai-developer**
+Expert Python development for LLMs, generative AI systems, and production AI applications including RAG systems, fine-tuning, and agent orchestration.
+
+### Business Strategy Agents
+
+#### 💼 **business-development-agent**
+Senior business strategist with 20+ years consulting experience (McKinsey, Bain, BCG) for strategic analysis, operational excellence, and executive-level insights.
+
 ### Documentation & Research Agents
 
 #### 📝 **documentation-agent**
