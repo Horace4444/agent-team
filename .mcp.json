@@ -1,0 +1,52 @@
+{
+  "mcpServers": {
+    "puppeteer": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-puppeteer"],
+      "description": "Browser automation and visual testing for web-design-specialist agent"
+    },
+    "github": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-github"],
+      "description": "GitHub repository management and code operations"
+    },
+    "OpenZeppelinContracts": {
+      "command": "npx",
+      "args": ["@openzeppelin/contracts-mcp"],
+      "description": "Smart contract generation using OpenZeppelin libraries"
+    },
+    "foundry": {
+      "command": "npx",
+      "args": ["@pranesh.asp/foundry-mcp-server"],
+      "env": {
+        "RPC_URL": "http://localhost:8545",
+        "PRIVATE_KEY": ""
+      },
+      "description": "Foundry toolchain for Solidity development (forge, cast, anvil)"
+    },
+    "figma-api": {
+      "command": "npx",
+      "args": ["figma-mcp"],
+      "env": {
+        "FIGMA_API_KEY": ""
+      },
+      "description": "Figma API integration for design-to-code workflows"
+    }
+  },
+  "projectConfig": {
+    "name": "agent-team",
+    "description": "Multi-agent development team with specialized MCP integrations",
+    "agents": [
+      "solidity-agent",
+      "onchain-protocol-config-agent",
+      "onchain-frontend-config-agent",
+      "ai-webapp-config-agent",
+      "documentation-agent",
+      "research-agent",
+      "elite-frontend-agent",
+      "data-architecture-agent",
+      "financial-analyst-agent",
+      "web-design-specialist"
+    ]
+  }
+}
