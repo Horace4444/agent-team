@@ -41,7 +41,7 @@ AI application specialist for Next.js 15+ with React 19, multi-provider LLM inte
 #### 🎨 **web-design-specialist**
 Modern web design expert with Puppeteer MCP integration for real-time design assessment and React implementation guidance.
 
-#### 📊 **elite-frontend-agent**
+#### 📊 **frontend-agent**
 20+ years React/Next.js expertise, specializing in enterprise dashboards, performance optimization, and design systems.
 
 ### Infrastructure & Analysis Agents
@@ -195,7 +195,7 @@ All servers should show ✓ Connected status.
 ## Contributing
 
 1. Update `.mcp.json` for new MCP servers
-2. Add agent configurations to `temp/agent-files/`
+2. Add agent configurations to `.claude/agents/`
 3. Document changes in `CLAUDE.md`
 4. Update `setup-mcp.sh` for new dependencies
 5. Commit with descriptive messages
@@ -208,9 +208,6 @@ All servers should show ✓ Connected status.
 - [Foundry Book](https://book.getfoundry.sh/)
 - [OpenZeppelin Contracts](https://docs.openzeppelin.com/contracts)
 
-## License
-
-[Your License Here]
 
 ---
 
