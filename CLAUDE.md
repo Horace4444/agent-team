@@ -78,7 +78,7 @@ When receiving a user prompt:
    - **Simple Request**: Execute directly without phase planning
    - **Complex Request**: Create phase plan in `/planning/phase_X_plan.md`
 
-### Phase 2: Phase Planning <triggered by: responding to a Complex Request> 
+### Phase 2: Phase Planning ***triggered by: responding to a Complex Request*** 
 For complex requests requiring multiple steps:
 
 1. **Create Phase Plan** (`/planning/phase_X_plan.md`):
@@ -104,7 +104,7 @@ For complex requests requiring multiple steps:
    - [Criterion 2]
    ```
 
-### Phase 3: Sub-Agent Consultation <triggered by: responding to a Complex Request> 
+### Phase 3: Sub-Agent Consultation ***triggered by: responding to a Complex Request***
 
 1. **Invoke Sub-Agents** with specific queries:
    ```
@@ -118,7 +118,7 @@ For complex requests requiring multiple steps:
    - Include implementation specifics, best practices, warnings
    - Do not modify project code, only provide instructions or example code to the Main Agent
 
-### Phase 4: Implementation <triggered by: responding to a Complex Request> 
+### Phase 4: Implementation ***triggered by: responding to a Complex Request*** 
 
 1. **Main Agent Execution**:
    - Read sub-agent instructions from phase plan
