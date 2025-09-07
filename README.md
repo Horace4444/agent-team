@@ -106,6 +106,12 @@ claude mcp add figma-api npx figma-mcp
 
 # Figma Dev Mode - Live design sync (requires Figma Desktop)
 claude mcp add -t sse figma-devmode http://localhost:3845/mcp
+
+# Supabase - Database operations and management
+claude mcp add supabase npx @supabase/mcp-server-supabase
+
+# Vercel AI Docs - Vercel AI SDK documentation access
+claude mcp add vercel-ai-docs npx vercel-ai-docs-mcp
 ```
 
 ### 3. Install Prerequisites
@@ -129,11 +135,13 @@ foundryup
 
 | Server | Purpose | Used By |
 |--------|---------|---------|
-| **Puppeteer** | Browser automation, visual testing | web-design-specialist, elite-frontend-agent |
+| **Puppeteer** | Browser automation, visual testing | web-design-specialist, frontend-agent |
 | **GitHub** | Repository management | All development agents |
 | **OpenZeppelin** | Smart contract templates | solidity-agent, onchain-protocol-config-agent |
 | **Foundry** | Solidity toolchain (forge, cast, anvil) | solidity-agent, onchain-protocol-config-agent |
-| **Figma** | Design-to-code conversion | web-design-specialist, elite-frontend-agent |
+| **Figma** | Design-to-code conversion | web-design-specialist, frontend-agent |
+| **Supabase** | Database operations, auth, storage | data-architecture-agent, ai-webapp-config-agent |
+| **Vercel AI Docs** | AI SDK documentation, deployment guides | ai-webapp-config-agent, python-ai-developer |
 
 ### Environment Variables
 
@@ -146,6 +154,10 @@ export PRIVATE_KEY="your-test-key-here"  # NEVER use mainnet keys!
 
 # For Figma API
 export FIGMA_API_KEY="your-figma-api-key"
+
+# For Supabase MCP
+export SUPABASE_ACCESS_TOKEN="your-supabase-access-token"
+export SUPABASE_PROJECT_REF="your-project-ref"  # Optional: scope to specific project
 ```
 
 ## Orchestration Workflow

@@ -47,6 +47,8 @@ add_mcp_server "github" "stdio" npx @modelcontextprotocol/server-github
 add_mcp_server "OpenZeppelinContracts" "stdio" npx @openzeppelin/contracts-mcp
 add_mcp_server "foundry" "stdio" npx @pranesh.asp/foundry-mcp-server
 add_mcp_server "figma-api" "stdio" npx figma-mcp
+add_mcp_server "supabase" "stdio" npx @supabase/mcp-server-supabase
+add_mcp_server "vercel-ai-docs" "stdio" npx vercel-ai-docs-mcp
 
 # Add SSE MCP servers
 echo "=== Adding SSE MCP Servers ==="
@@ -67,6 +69,8 @@ echo "📝 Notes:"
 echo "   - Foundry MCP requires Foundry toolchain installed (run: curl -L https://foundry.paradigm.xyz | bash && foundryup)"
 echo "   - Figma API requires API key (get from Figma.com → Settings → Security)"
 echo "   - Figma Dev Mode requires Figma Desktop app running"
+echo "   - Supabase MCP requires SUPABASE_ACCESS_TOKEN and project-ref configuration"
+echo "   - Vercel AI Docs provides documentation access for Vercel AI SDK"
 echo "   - Configure environment variables in your .env file if needed"
 echo ""
 echo "📚 Your agent team is now equipped with:"
@@ -75,3 +79,5 @@ echo "   ✓ GitHub for repository management"
 echo "   ✓ OpenZeppelin for smart contracts"
 echo "   ✓ Foundry for Solidity development"
 echo "   ✓ Figma for design integration"
+echo "   ✓ Supabase for database operations"
+echo "   ✓ Vercel AI Docs for deployment guidance"

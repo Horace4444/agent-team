@@ -31,6 +31,20 @@
         "FIGMA_API_KEY": ""
       },
       "description": "Figma API integration for design-to-code workflows"
+    },
+    "supabase": {
+      "command": "npx",
+      "args": ["@supabase/mcp-server-supabase"],
+      "env": {
+        "SUPABASE_ACCESS_TOKEN": "",
+        "SUPABASE_PROJECT_REF": ""
+      },
+      "description": "Supabase database operations, authentication, and storage management"
+    },
+    "vercel-ai-docs": {
+      "command": "npx",
+      "args": ["vercel-ai-docs-mcp"],
+      "description": "Vercel AI SDK documentation and deployment guidance"
     }
   },
   "projectConfig": {
@@ -43,10 +57,13 @@
       "ai-webapp-config-agent",
       "documentation-agent",
       "research-agent",
-      "elite-frontend-agent",
+      "frontend-agent",
       "data-architecture-agent",
       "financial-analyst-agent",
-      "web-design-specialist"
+      "web-design-specialist",
+      "python-data-scientist",
+      "python-ai-developer",
+      "business-development-agent"
     ]
   }
 }

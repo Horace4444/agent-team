@@ -74,9 +74,9 @@ When receiving a user prompt:
    - Record user prompt in `/prompts/record_of_user_prompts.md`
    - Format: `[YYYY-MM-DD HH:MM:SS] - User Request: <prompt>`
 
-2. **Evaluate Complexity**:
-   - **Simple Request**: Execute directly without phase planning
-   - **Complex Request**: Create phase plan in `/planning/phase_X_plan.md`
+2. **Evaluate Complexity and Determine Mode**:
+   - **Simple Request**: Execute directly without phase planning; can use sub-agents to directly execute on code and documentation file changes in this mode
+   - **Complex Request**: Create phase plan in `/planning/phase_X_plan.md`; only main agent should make file changes in this mode -- main agent should consult with required sub-agents who will write detailed instructions back to the `/planning/phase_X_plan.md` for main agent execution
 
 ### Phase 2: Phase Planning ***triggered by: responding to a Complex Request*** 
 For complex requests requiring multiple steps:
